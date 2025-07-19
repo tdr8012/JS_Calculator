@@ -33,7 +33,7 @@ button{
     justify-content:end;
     align-items: flex-end;
     margin-right: 40px;
-    margin-top: 3%;
+    margin-top: 30px;
 }
 
 #calculator{
@@ -49,5 +49,22 @@ button{
     width: 100%;
     padding: 40px;
     font-size: 5rem;
-    text-align: left;
+    text-align: right;
+    overflow-x: auto; 
+    white-space: nowrap;     
+    box-sizing: border-box; 
+}
+
+.operation-btn{
+    background-color: #e09616;
+
+}
+
+.operation-btn:hover{
+    background-color: hsl(38, 82%, 58%);
+
+}
+.operation-btn:active{
+    background-color: hsl(38, 82%, 68%);
+
 }
