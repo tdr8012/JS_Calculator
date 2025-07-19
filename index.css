@@ -1,6 +1,16 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 #keys{
     display: grid;
-    grid-template-columns: repeat(4, 1fr)  /*fr stands for fractional unit */
+    grid-template-columns: repeat(4, 1fr) ; /*fr stands for fractional unit, 
+    each column should take up an even amount of space*/
+    gap: 10px;
+    padding: 25px;
 }
 
 button{
@@ -9,10 +19,35 @@ button{
     height: 100px;
     border-radius: 50px;
     border: none;
-    background-color: blanchedalmond;
+    background-color: #e7bc71;
     color: black;
     font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
+    margin: 20px;
     
+}
+
+#clear{
+    display: flex;
+    justify-content:end;
+    align-items: flex-end;
+    margin-right: 40px;
+    margin-top: 3%;
+}
+
+#calculator{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #122954;
+    border-radius: 15px;
+    max-width: 700px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+ }
+
+#display{
+    width: 100%;
+    padding: 40px;
+    font-size: 5rem;
+    text-align: left;
 }
