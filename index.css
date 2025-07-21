@@ -39,10 +39,11 @@ button{
 #calculator{
     font-family: 'Times New Roman', Times, serif;
     background-color: #122954;
-    border-radius: 15px;
+    border-radius: 55px;
     max-width: 700px;
     overflow: hidden;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 70px rgba(0, 0, 0, 0.5);
+
  }
 
 #display{
